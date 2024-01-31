@@ -1,0 +1,46 @@
+.maincontainer{
+    width: 50%;
+    height: 50%;
+    top: 10rem;
+    left: 25rem;
+    border-radius: 10px;
+    position: absolute;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: #474444;
+    position: relative;
+}
+
+.maincontainer input{
+    border-radius: 10px;
+    background: #EDEDED;
+    border: none;
+    outline: none;
+    width: 35rem;
+    height: 3rem;
+    color: inherit;
+    font-size: inherit;
+}
+
+.maincontainer button{
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: #60B84B;
+    padding: 1rem 5rem;
+    color: #FFFFFF;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+.maincontainer img{
+    position: absolute;
+    top : 2rem;
+    right: 2rem;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}

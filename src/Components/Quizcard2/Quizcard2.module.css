@@ -1,0 +1,162 @@
+/* GENERAL STYLING */
+.maincontainer input, .maincontainer button{
+    border: none;
+    border-radius: 10px;
+    background: #FFF;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+}
+
+.maincontainer button{
+    cursor: pointer;
+}
+
+.maincontainer .selectedbttn{
+    background: #60B84B !important;
+    color: #FFFFFF !important;
+}
+
+.maincontainer .selectedbttn::placeholder{
+    background: #60B84B !important;    
+    color: #FFFFFF !important;
+}
+.maincontainer .selectedtimer{
+    background: #D60000 !important;
+    color: #FFFFFF !important;
+}
+
+.maincontainer .radio{
+    width: 1rem !important;
+    height: 1rem !important;
+}
+
+.maincontainer{
+    width: 50%;
+    height: 80%;
+    border-radius: 10px;
+    background: #FFF;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    color: #9F9F9F;
+    align-items: center;
+}
+
+.maincontainer .questionclass{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.maincontainer .questionclass .questionnumbercontainer{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.maincontainer .questionclass .questionnumbercontainer > img{
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.maincontainer .questionclass .questionnumbercontainer .questionnumber{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 100%;
+    background-color: #FFF;
+    margin-left: 8px;
+    filter: drop-shadow(0px 0px 10px rgba(150, 66, 66, 0.15));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maincontainer .questionclass .questionnumbercontainer .selectedquestion{
+    border : 1px solid green;
+}
+.maincontainer .questionclass .questionnumbercontainer > div{
+    position: relative;
+}
+.maincontainer .questionclass .questionnumbercontainer > div > img{
+    position: absolute;
+    top: -8px;
+    left: 2rem;
+}
+.maincontainer input{
+    width: 80%;
+    margin-top: 8px;
+    padding-left: 8px;
+    height: 3rem;
+}
+
+.maincontainer .optiontype{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40rem;
+}
+
+
+.maincontainer .optioncontainer{
+    display: flex;
+    flex-direction: column;
+    width: 45rem;
+    height: 15rem;
+}
+
+.maincontainer .optioncontainer button{
+    color: inherit;
+    width: 10rem;
+    padding-top:8px;
+    padding-bottom: 8px;
+    margin-left: 2.5rem;
+    margin-top: 8px;
+    font-weight: inherit;
+}
+
+.maincontainer .optioncontainer .option{
+    display: flex;
+    align-items: center;
+}
+
+.maincontainer .optioncontainer .option input{
+    margin-left: 8px;
+    width: 10rem;
+    height: 2rem;
+    margin-right: 8px;
+}
+
+.maincontainer .optioncontainer .option img{
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.maincontainer .timer{
+    position: absolute;
+    top:20rem;
+    left: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.maincontainer .timer button{
+    width: 5rem;
+    color: inherit;
+    margin-top: 8px;
+}
+
+.maincontainer .createquiz{
+    display: flex;
+    width: 30rem;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.maincontainer .createquiz button{
+    padding: 8px 4rem;
+    color: #474444;
+}
