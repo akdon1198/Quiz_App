@@ -24,9 +24,9 @@ const Quizcard3 = () => {
     <div className={styles.maincontainer}>
         <img src={crossimg} alt="" onClick={handleclick}/>
         <h2>Congrats your Quiz is Published!</h2>
-        <input type="text" value={"https://quiz-play-app.vercel.app/quizplay/" + quizcreatedid}
+        <input type="text" value={"https://quiz-play-app-vful.vercel.app/quizplay/" + quizcreatedid}
         />
-        <CopyToClipboard text={"https://quiz-play-app.vercel.app/quizplay/" + quizcreatedid}>
+        <CopyToClipboard text={"https://quiz-play-app-vful.vercel.app/quizplay/" + quizcreatedid}>
           <button onClick={copytexttoclipboard}>Share</button>
         </CopyToClipboard>
     </div>

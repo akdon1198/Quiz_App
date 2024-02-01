@@ -76,7 +76,7 @@ const Analytics = () => {
                 <img src={deleteimg} alt="" 
                 onClick={() => handledelete(quiz)}
                 />
-                <CopyToClipboard text={"https://quiz-play-app.vercel.app/quizplay/" + quiz._id}>
+                <CopyToClipboard text={"https://quiz-play-app-vful.vercel.app/quizplay/" + quiz._id}>
                 <img src={shareimg} alt="" 
                 onClick={copytexttoclipboard}
                 />
