@@ -21,22 +21,23 @@ const Home = () => {
             <div className={styles.leftcontainer}>
                 <h1>QUIZZIE</h1>
                 <div>
-                    <h3 className={url == "dashboard" && styles.selectedroute}
+                    <div className={url == "dashboard" && styles.selectedroute}
                     onClick={()=>{
                         history("/dashboard")
                     }}
-                    >Dashboard</h3>
-                    <h3 className={url == "analytics" && styles.selectedroute}
+                    >Dashboard</div>
+                    <div className={url == "analytics" && styles.selectedroute}
                     onClick={()=>{
                         history("/analytics")
                     }}                    
-                    >Analytics</h3>
-                    <h3 className={url == "createquiz" && styles.selectedroute}
+                    >Analytics</div>
+                    <div className={url == "createquiz" && styles.selectedroute}
                     onClick={()=>{
                         history("/createquiz")
                     }}                    
-                    >Create Quiz</h3>
+                    >Create Quiz</div>
                 </div>
+                <div className={styles.line}></div>
                 <h2 onClick={deleteuser}>LOGOUT</h2>
             </div>
             <div className={styles.rightcontainer}>
